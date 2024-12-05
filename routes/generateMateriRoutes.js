@@ -28,7 +28,7 @@ router.post('/', async (req, res) => {
           },
           {
             role: 'user',
-            content: `Buatkan materi pengajaran untuk mata kuliah ${mataKuliah} dengan judul materi ${materiKuliah}. Buatkan bagian pengantar, pembahasan, contoh yang relevan, referensi yang sesuai, dan latihan untuk siswa. Format output harus sesuai dengan label berikut: Pengantar, Pembahasan, Contoh, Referensi, Latihan.`
+            content: `Buatkan materi pengajaran untuk mata kuliah ${mataKuliah} dengan judul materi ${materiKuliah}. Buatkan bagian pengantar, pembahasan, contoh yang relevan, referensi yang sesuai, dan latihan untuk mahasiswa. Format output harus sesuai dengan label berikut: Pengantar, Pembahasan, Contoh, Referensi, Latihan, dengan 650 kata.`
           }
         ]
       },

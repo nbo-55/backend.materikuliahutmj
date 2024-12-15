@@ -21,7 +21,7 @@ router.post('/', async (req, res) => {
       'https://api.openai.com/v1/chat/completions',
       {
         model: 'gpt-4',
-        max_tokens: 1400, // Membatasi panjang respons
+        max_tokens: 1000, // Membatasi panjang respons
         temperature: 0.7,
         messages: [
           {
